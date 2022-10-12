@@ -1,0 +1,21 @@
+<div class="container-fluid" *ngIf="profile">
+<div class="row">
+    <div class="col-6 col-md-3">
+        <img src={{profile.phProfile}} class="img-fluid" id="portrait" alt="">
+    </div>
+    <div class="col-6 col-md-2">
+        <p id="nombre">{{profile.name}} {{profile.surname}}</p>
+        <p>{{profile.title}}</p>
+    </div>
+    <div class="col-12 col-md-7" id="about-me">
+        <span>
+            <h3>
+                Acerca de mí
+            </h3>
+            <p>
+                {{profile.aboutMe}}
+            </p>
+        </span>
+    </div>
+</div>
+</div>

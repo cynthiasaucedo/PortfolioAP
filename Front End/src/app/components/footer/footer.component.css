@@ -1,0 +1,57 @@
+.footer{
+    background-color: rgb(18, 20, 22);
+    text-shadow: 2px 2px 1px black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 4rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.text-end{
+  margin-bottom: 5vh;
+}
+
+h3{
+  padding-top: 20px;
+}
+hr {
+  clear: both;
+  position: relative;
+  display: flex;
+}
+  /* -- Animated hr -- */
+  
+  .progress {
+    background: rgb(18, 20, 22);
+    overflow:hidden;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .progress::before {
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: progress;
+    background: rgb(255, 255, 255);
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 150px;
+  }
+  
+  @keyframes progress {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(1440px);
+    }
+  }
+  

@@ -1,0 +1,28 @@
+div{ 
+    text-align: center;  
+    align-items: center; 
+    margin-top: 30px;
+} 
+#nombre{ 
+    font-weight: bold;
+    margin-top: 30px; 
+    } 
+#portrait{
+    margin-bottom: 20px;
+    position: relative; 
+    max-height: 20vh;
+    border-style: outset;
+    border-color: rgb(49, 49, 58);
+    }
+
+@media (min-width:768px){
+   #portrait{
+       margin-top: 0%;
+       margin-bottom: 0%;
+   }
+}
+@media (max-width:767px){
+    #portrait{ 
+    margin-left: 0px;
+    }
+}

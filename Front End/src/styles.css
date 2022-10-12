@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color:rgb(33 37 41);
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+  }
