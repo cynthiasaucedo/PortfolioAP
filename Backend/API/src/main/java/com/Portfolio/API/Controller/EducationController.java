@@ -43,11 +43,7 @@ public class EducationController {
     }
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteEducation(@PathVariable Long id){
-<<<<<<< Updated upstream
         educationServiceImpl.deleteEdu(id);
-=======
-        educationService.deleteEdu(id);
->>>>>>> Stashed changes
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
